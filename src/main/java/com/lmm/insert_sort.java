@@ -17,12 +17,32 @@ public class insert_sort {
     }
 
     @Test
+    public void bubbleSort() {
+        long start = System.currentTimeMillis();
+        for (int i = 0; i < array.length - 1; i++) {
+            for (int j = 0; j < array.length - 1 - i; j++) {
+                if (array[j] > array[j + 1]) {
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+        long end = System.currentTimeMillis();
+        System.out.println(end - start);//24029
+        //for (int i = 0; i < array.length; i++) {
+        //    System.out.print(array[i] + " ");
+        //}
+    }
+
+    @Test
     public void insetSort() {
         int index;
         int current;
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+" ");
-        }
+        //for (int i = 0; i < array.length; i++) {
+        //    System.out.print(array[i] + " ");
+        //}
+        long start = System.currentTimeMillis();
         for (int i = 1; i < array.length; i++) {
             index = i - 1;//当前值的前一个索引
             current = array[i];//当前值
@@ -33,9 +53,10 @@ public class insert_sort {
             //前面的值小于当前值, 将当前值存在 index+1 的位置, 因为while里减多了一次, 所以加回来
             array[index + 1] = current;
         }
-        System.out.println();
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+" ");
-        }
+        long end = System.currentTimeMillis();
+        System.out.println(end - start);//1909
+        //for (int i = 0; i < array.length; i++) {
+        //    System.out.print(array[i] + " ");
+        //}
     }
 }
