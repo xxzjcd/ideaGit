@@ -11,9 +11,11 @@ public class insert_sort {
     @Before
     public void init() {
         Random random = new Random();
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(100000);
+            System.out.print(array[i] + " ");
         }
+        System.out.println();
     }
 
     @Test
@@ -36,12 +38,32 @@ public class insert_sort {
     }
 
     @Test
-    public void insetSort() {
-        int index;
-        int current;
+    public void selectSort() {
+        long start = System.currentTimeMillis();
+        for (int i = 0; i < array.length - 1; i++) {
+            int index = i;
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[index] > array[j]) {
+                    index = j;
+                }
+            }
+            if (index != i) {//不相等说明i索引不是最小值
+                int temp = array[i];
+                array[i] = array[index];
+                array[index] = temp;
+            }
+        }
+        long end = System.currentTimeMillis();
+        System.out.println(end - start);//9514
         //for (int i = 0; i < array.length; i++) {
         //    System.out.print(array[i] + " ");
         //}
+    }
+
+    @Test
+    public void insetSort() {
+        int index;
+        int current;
         long start = System.currentTimeMillis();
         for (int i = 1; i < array.length; i++) {
             index = i - 1;//当前值的前一个索引

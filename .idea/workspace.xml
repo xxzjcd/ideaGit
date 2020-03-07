@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lmm/insert_sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-159">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            <state relative-caret-position="108">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,7 +254,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583588022353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583591965111" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -275,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.insert_sort.insetSort">
+  <component name="RunManager" selected="JUnit.insert_sort.bubbleSort">
     <configuration name="ClassInitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lmm.ClassInitTest" />
       <module name="sort_test" />
@@ -335,10 +335,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="insert_sort.selectSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sort_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lmm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lmm" />
+      <option name="MAIN_CLASS_NAME" value="com.lmm.insert_sort" />
+      <option name="METHOD_NAME" value="selectSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.insert_sort.insetSort" />
         <item itemvalue="JUnit.insert_sort.bubbleSort" />
+        <item itemvalue="JUnit.insert_sort.selectSort" />
+        <item itemvalue="JUnit.insert_sort.insetSort" />
         <item itemvalue="Application.ClassInitTest" />
         <item itemvalue="JUnit.insert_sort" />
       </list>
@@ -363,44 +380,52 @@
       <workItem from="1582123104437" duration="8430000" />
       <workItem from="1582611173264" duration="8056000" />
       <workItem from="1583559108026" duration="107000" />
-      <workItem from="1583559234914" duration="6339000" />
+      <workItem from="1583559234914" duration="10289000" />
     </task>
+    <task id="LOCAL-00001" summary="add bubbleSort in insert_sort.java">
+      <created>1583588154559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583588154559</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="insert_sort - 2019.11.30 at 21h 00m 35s.xml">
-      <configuration name="insert_sort" configurationId="JUnit" />
+    <history-entry file="insert_sort_selectSort - 2020.03.07 at 22h 18m 26s.xml">
+      <configuration name="insert_sort.selectSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="insert_sort_insetSort - 2019.11.30 at 21h 02m 33s.xml">
-      <configuration name="insert_sort.insetSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="insert_sort_insetSort - 2019.11.30 at 21h 03m 32s.xml">
-      <configuration name="insert_sort.insetSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 21h 20m 13s.xml">
+    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 22h 19m 16s.xml">
       <configuration name="insert_sort.bubbleSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 21h 25m 24s.xml">
+    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 22h 19m 28s.xml">
       <configuration name="insert_sort.bubbleSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 21h 26m 09s.xml">
+    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 22h 20m 33s.xml">
       <configuration name="insert_sort.bubbleSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="insert_sort_insetSort - 2020.03.07 at 21h 26m 23s.xml">
+    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 22h 23m 38s.xml">
+      <configuration name="insert_sort.bubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 22h 24m 03s.xml">
+      <configuration name="insert_sort.bubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="insert_sort_insetSort - 2020.03.07 at 22h 30m 00s.xml">
       <configuration name="insert_sort.insetSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="insert_sort_insetSort - 2020.03.07 at 21h 26m 48s.xml">
+    <history-entry file="insert_sort_insetSort - 2020.03.07 at 22h 30m 27s.xml">
       <configuration name="insert_sort.insetSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 21h 27m 42s.xml">
-      <configuration name="insert_sort.bubbleSort" configurationId="JUnit" />
+    <history-entry file="insert_sort_selectSort - 2020.03.07 at 22h 30m 55s.xml">
+      <configuration name="insert_sort.selectSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 21h 28m 39s.xml">
+    <history-entry file="insert_sort_bubbleSort - 2020.03.07 at 22h 31m 42s.xml">
       <configuration name="insert_sort.bubbleSort" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60273000" />
+    <option name="totallyTimeSpent" value="64223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -416,7 +441,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.50080514" side_tool="true" weight="0.17927383" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42258066" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42258066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,6 +468,36 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add bubbleSort in insert_sort.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bubbleSort in insert_sort.java" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -634,8 +689,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lmm/insert_sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        <state relative-caret-position="108">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
